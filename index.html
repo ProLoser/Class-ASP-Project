@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Dean Sofer's Homework</title>
+	<style type="text/css">
+	h1 { text-align: center; }
+	a { margin: 0 5px; }
+	</style>
+</head>
+<body>
+    <h1>Dean Sofer's Homework</h1>
+    <h2>ASP.NET and Nested Forms</h2>
+    <p>So you can't put a form inside a form for sending data to another page, but moving the new form to the end of the file makes the page look ugly? Well I got the solution for YOU:</p>
+    <p><code>&lt;asp:Button runat="server" <span style="color: green">PostBackUrl="~/addcart.aspx"</span> Text="Add to Cart" /&gt;</code></p>
+    <p>Specifically that <code>PostBackUrl</code> part will let you change what page the button sends the user to! No second form needed whatsoever!</p>
+	<h2>Improved DLL Converter</h2>
+	<a href="dll_converter.zip">Download Here</a>
+	<h3>Features:</h3>
+	<ul>
+		<li>Doesn't require editing in order to use</li>
+		<li>Doesn't need to be launched from Visual Studio command prompt</li>
+		<li>Now works with more Visual Studio installs!</li>
+	</ul>
+	<h3>Instructions:</h3>
+	<ol>
+		<li>Move the batch file next to the file you wish to convert</li>
+		<li>Double click to open the batch file</li>
+		<li>Type the filename you wish to convert (without .vb extension)</li>
+	</ol>
+	<h2>Homework #1</h2>
+	<a href="Homework1/Application.aspx">Code Behind</a>
+	<a href="Homework1/Application1.aspx">Inline Code (Application1)</a>
+	<a href="Homework1/Application2.aspx">Class File (Application2)</a>
+	<h2>Project #1</h2>
+	<a href="Project1/Default.aspx">View Here</a>
+	<h2>Project #2</h2>
+	<a href="Project2/Default.aspx">View Here</a>
+</body>
+</html>

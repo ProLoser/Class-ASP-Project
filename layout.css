@@ -1,0 +1,185 @@
+﻿body 
+{
+	font-family: Verdana;
+	background: url(images/background.png);
+	color: #fff;
+	margin: 0;
+	height: 100%;
+}
+h1, h2, h3 
+{
+	 color: #3A5961;
+	 text-shadow: #CDDDF7 -1px -1px 1px;
+}
+a 
+{
+	text-decoration: none;	
+	color:  #CDDDF7;
+}
+a:hover 
+{
+	color: #fff;
+}
+#container 
+{
+	height: 100%;
+	margin: 0 40px;
+}
+#header 
+{
+	height: 100px;
+	text-align: center;
+}
+#header h2 span 
+{
+	font-style: italic;
+	display: block;
+	font-size: 60%;	
+}
+#header li 
+{
+	display: inline;
+	margin: 5px;
+}
+#header li a 
+{
+	font-weight: bold;
+	font-size: 120%;
+}
+#header li a:hover 
+{
+	text-decoration: none;
+}
+#body 
+{
+	overflow: auto;
+}
+#navigation 
+{
+	float: left;
+	width: 200px;
+}
+#navigation h3 
+{
+	margin: 0 5px 5px 5px;
+}
+#navigation ul 
+{
+	padding: 0;
+	margin: 2px;
+}
+#navigation li 
+{
+	margin: 0;
+	list-style: none;
+}
+#navigation li a 
+{
+	display: block;
+	font-weight: bold;
+	padding: 5px;
+}
+#navigation li a:hover 
+{
+	text-decoration: none;
+}
+#maincontent 
+{
+	margin-left: 200px;
+}
+#footer 
+{
+	height: 100px;
+	text-align: center;
+}
+#footer li
+{
+	margin: 5px;
+	display: inline;
+}
+
+.productlist li 
+{
+	list-style: circle;
+	padding-left: 0px;
+	margin: 10px;
+	font-weight: bold;
+}
+.productlist li a
+{
+	border-left: 3px solid white;
+	padding-left: 5px;
+}
+.productlist li a:hover 
+{
+	border-left-color: #3A5961;
+}
+label 
+{
+	display: block;
+}
+input 
+{
+	padding: 0;
+}
+.product 
+{
+	border: solid 1px #3F3C42;
+	padding: 10px;
+	margin: 10px;
+}
+.product h4 
+{
+	margin: 0 0 10px 0;
+}
+.submit 
+{
+	padding: 5px 20px;
+	font-size: 100%;
+	display: block;
+	float: right;
+	margin: 10px;
+}
+.price 
+{
+	font-weight: bold;
+	margin-right: 10px;
+}
+#dlProductView 
+{
+	width: 100%;
+}
+/* Shopping Cart page */
+#pnlCart table 
+{
+	border-top: 1px dotted white;
+	border-left: 1px dotted white;
+	width: 100%;
+}
+#pnlCart td 
+{
+	border-bottom: 1px dotted white;
+	border-right: 1px dotted white;
+}
+#pnlCart .head td 
+{
+	font-weight: bold;	
+}
+/* Checkout Page */
+#checkout span 
+{
+	display: block;
+}
+#checkout label 
+{
+	float: left;
+	width: 100px;
+	margin-right: 10px;
+	text-align: right;
+	display: block;
+}
+#checkout input, #checkout select 
+{
+	display: block;
+	margin-left: 110px;
+}
